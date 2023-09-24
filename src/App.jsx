@@ -12,7 +12,10 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Shop />} />
+            <Route
+              path="/react-project-simple-shopping-cart"
+              element={<Shop />}
+            />
             <Route path="/cart" element={<Cart />} />
           </Routes>
         </Router>

@@ -27,7 +27,11 @@ function Cart() {
       {totalAmount > 0 ? (
         <div className="checkout">
           <p> Subtotal: ${totalAmount} </p>
-          <button onClick={() => navigate("/")}>Continue Shopping</button>
+          <button
+            onClick={() => navigate("/react-project-simple-shopping-cart")}
+          >
+            Continue Shopping
+          </button>
           <button>Checkout</button>
         </div>
       ) : (
